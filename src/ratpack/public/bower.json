@@ -1,0 +1,32 @@
+{
+  "name": "fillword",
+  "authors": [
+    "Alex Kartishev"
+  ],
+  "description": "Fillword crossword composer for children",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "fillword",
+    "english",
+    "school",
+    "composer",
+    "crossword"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "jquery.steps": "jquery-steps#^1.1.0"
+  }
+}
