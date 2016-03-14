@@ -1,0 +1,11 @@
+#myTable {
+
+}
+
+#myTable > td {
+    width: 20px;
+}
+
+#myTable > tr {
+    height: 20px;
+}

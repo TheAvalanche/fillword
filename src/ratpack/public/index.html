@@ -2,13 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Fillword</title>
     <link rel="stylesheet" href="build/third_party.css">
 </head>
 <body class="container">
-<table class="table table-bordered" id="myTable"></table>
+
+<div id="myWizard" class="row">
+    <h3>Grid size</h3>
+    <section>
+        <form>
+            <div class="form-group">
+                <label for="gridSizeInput">Enter the side for your grid</label>
+                <input type="text" class="form-control" id="gridSizeInput" placeholder="20">
+            </div>
+        </form>
+    </section>
+    <h3>Words</h3>
+    <section>
+        <form>
+            <div class="form-group">
+                <label for="wordsInput">Enter words, separated by new line, space or comma</label>
+                <textarea class="form-control" rows="3" id="wordsInput"></textarea>
+            </div>
+        </form>
+    </section>
+    <h3>Fillword</h3>
+    <section>
+        <table class="center-block table table-bordered" id="myTable"></table>
+    </section>
+</div>
 
 <script src="build/third_party.js"></script>
+<script src="scripts/fillword.js"></script>
 <script src="scripts/scripts.js"></script>
 </body>
 </html>
